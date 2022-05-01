@@ -1,0 +1,97 @@
+body, *{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+}
+
+a:link, a:visited {
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+a:hover, a:active {
+  color:black
+}
+
+.navbar a:hover{
+    background-color: rgba(218, 147, 158, 0.587);
+    border-radius: 25px;
+    color: black !important;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.fondo-carrusel{
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.carousel-indicators{
+    bottom: -40px;
+    opacity: 0.7;
+}
+
+.boton-carrusel{
+    background-color: black !important;
+}
+
+.color-boton{
+    color: white !important;
+    background-color: rgba(182, 66, 66, 0.717);
+}
+
+.color-link{
+    color: white !important;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(212, 121, 121) !important;
+
+}
+.nav-link{
+    color: white !important;
+    font-size: large;
+}
+
+.color-footer{
+    background-color: rgb(212, 121, 121) !important;
+    color:white !important;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 50px;
+
+}
+
+.actualizar{
+    margin-bottom: 110px;
+}
+
+.fa-facebook-square:hover{
+    border-style: inherit;
+    color: rgba(0, 0, 255, 0.679) !important;
+}
+
+.fa-instagram-square:hover{
+    border-style: inherit;
+    color: rgba(156, 38, 210, 0.773) !important;
+}
+
+.fa-twitter-square:hover{
+    border-style: inherit;
+    color:rgba(0, 255, 255, 0.85) !important;
+}
+
+.fa-whatsapp-square:hover{
+    border-style: inherit;
+    color: rgb(47, 255, 47) !important;
+}
+
+
+
